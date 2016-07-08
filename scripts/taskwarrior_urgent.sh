@@ -6,7 +6,7 @@ main() {
 
   # Make sure task is available.
   if type task >/dev/null 2>&1; then
-    output=$(task count +TODAY)
+    output=$(task count status:pending +TODAY)
   fi
 
   echo "$output"
