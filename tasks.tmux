@@ -28,7 +28,7 @@ command_taskwarrior_outstanding="#($CURRENT_DIR/scripts/taskwarrior_outstanding.
 
 # Colors
 tasks_format_begin=$(get_tmux_option "@tasks_format_begin" "#[fg=white,bg=colour236]")
-tasks_format_end=$(get_tmux_option "@tasks_format_end" "#[fg=white,bg=black]")
+tasks_format_end=$(get_tmux_option "@tasks_format_end" "#[fg=default,bg=default]")
 
 # Icons
 tasks_icon_urgent=$(get_tmux_option "@tasks_icon_urgent" "⧗ ")
